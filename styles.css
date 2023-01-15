@@ -79,14 +79,7 @@ body {
 
 
 
-/* .view_overlay_icon {
-    opacity: 0.5;
-}
 
-.view_overlay_icon:hover {
-    opacity: 1;
-    background-color: hsla(178, 100%, 50%, 0.356);
-} */
 .picture:hover {
     cursor: pointer;
 }
