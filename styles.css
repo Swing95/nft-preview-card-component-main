@@ -1,0 +1,159 @@
+html {
+    max-width: 1440px;
+    max-height: 900px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* max-width: 1440px; */
+    /* max-height: 900px; */
+    height: 900px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    width: 28%;
+    height: 75%;
+    border-radius: 10px;
+    padding: 2rem;
+    background-color: hsl(216, 50%, 16%);
+    box-shadow: hsla(216, 76%, 8%, 0.123) 0 30px 3px 10px;
+}
+
+.card_separator {
+    margin-bottom: 1.rem;
+    width: 100%;
+    height: 1px;
+    background: hsl(215, 51%, 70%);
+    margin-bottom: 1.3rem;
+    margin-top: 1.3rem;
+}
+
+
+.picture {
+    /* overflow: hidden; */
+    width: 100%;
+    height: 55%;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.picture_basic {
+    width: 100%;
+    height: 100%;
+    background-image: url(images/image-equilibrium.jpg);
+    background-size: 100% 100%;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay:hover {
+    opacity: 1;
+    background-color: hsla(178, 100%, 50%, 0.247);
+}
+
+
+
+
+
+
+/* .view_overlay_icon {
+    opacity: 0.5;
+}
+
+.view_overlay_icon:hover {
+    opacity: 1;
+    background-color: hsla(178, 100%, 50%, 0.356);
+} */
+.picture:hover {
+    cursor: pointer;
+}
+
+
+a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+a:active {
+    color: hsl(178, 100%, 50%);
+}
+
+.main_product {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.product_description {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    color: hsl(215, 51%, 70%);
+    line-height: 1.8rem;
+}
+
+.price_and_time_left {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.current_price {
+    color: hsl(178, 100%, 50%);
+    width: 50%;
+}
+
+.days_left {
+    color: hsl(215, 51%, 70%);
+    
+}
+
+/* Creator part  */
+.creator_div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.creation_of_par {
+    color: hsl(215, 51%, 70%);
+}
+
+.creator_avatar {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: white 1px solid;
+    margin-right: 1.3rem;
+}
+
+.creator_avatar_img {
+    width: 100%;
+    height: 100%;
+}
